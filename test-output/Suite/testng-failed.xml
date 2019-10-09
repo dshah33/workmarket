@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="WorkMarket.TestCases.TestCasesRegistrationPage">
+        <methods>
+          <include name="closeApp"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- WorkMarket.TestCases.TestCasesRegistrationPage -->
+      <class name="WorkMarket.TestCases.TestCasesLoginPage">
+        <methods>
+          <include name="LoginPage_Testcase"/>
+        </methods>
+      </class> <!-- WorkMarket.TestCases.TestCasesLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

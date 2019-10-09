@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[======+w+++ Browser Session Started ++++======]]>
+    </line>
+    <line>
+      <![CDATA[======++++ Brwoser Session Ended ++++======]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="42470" started-at="2019-10-09T00:08:47Z" finished-at="2019-10-09T00:09:30Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="42470" started-at="2019-10-09T00:08:47Z" finished-at="2019-10-09T00:09:30Z">
+      <class name="WorkMarket.TestCases.TestCasesRegistrationPage">
+        <test-method status="PASS" signature="RegistrationPage_Testcase1()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase1" duration-ms="5582" started-at="2019-10-08T17:08:58Z" finished-at="2019-10-08T17:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase1 -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_UncheckedCheckBox()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_UncheckedCheckBox" duration-ms="2062" started-at="2019-10-08T17:09:03Z" finished-at="2019-10-08T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_UncheckedCheckBox -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_emptyEmailId()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_emptyEmailId" duration-ms="1559" started-at="2019-10-08T17:09:05Z" finished-at="2019-10-08T17:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_emptyEmailId -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_emptyFields_and_Checkbox()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_emptyFields_and_Checkbox" duration-ms="1166" started-at="2019-10-08T17:09:07Z" finished-at="2019-10-08T17:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_emptyFields_and_Checkbox -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_emptyFirstName()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_emptyFirstName" duration-ms="1712" started-at="2019-10-08T17:09:08Z" finished-at="2019-10-08T17:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_emptyFirstName -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_emptyLastName()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_emptyLastName" duration-ms="1832" started-at="2019-10-08T17:09:10Z" finished-at="2019-10-08T17:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_emptyLastName -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_emptyPassword()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_emptyPassword" duration-ms="1695" started-at="2019-10-08T17:09:11Z" finished-at="2019-10-08T17:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_emptyPassword -->
+        <test-method status="PASS" signature="RegistrationPage_Testcase_onlyCheckedChexbox()[pri:0, instance:WorkMarket.TestCases.TestCasesRegistrationPage@5419f379]" name="RegistrationPage_Testcase_onlyCheckedChexbox" duration-ms="1285" started-at="2019-10-08T17:09:13Z" finished-at="2019-10-08T17:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage_Testcase_onlyCheckedChexbox -->
+      </class> <!-- WorkMarket.TestCases.TestCasesRegistrationPage -->
+      <class name="WorkMarket.TestCases.TestCasesLoginPage">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:WorkMarket.TestCases.TestCasesLoginPage@4439f31e]" name="setupDriver" is-config="true" duration-ms="10321" started-at="2019-10-08T17:08:47Z" finished-at="2019-10-08T17:08:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[======+w+++ Browser Session Started ++++======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="LoginPage_Testcase()[pri:0, instance:WorkMarket.TestCases.TestCasesLoginPage@4439f31e]" name="LoginPage_Testcase" duration-ms="13334" started-at="2019-10-08T17:09:14Z" finished-at="2019-10-08T17:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage_Testcase -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:WorkMarket.TestCases.TestCasesLoginPage@4439f31e]" name="closeApp" is-config="true" duration-ms="1894" started-at="2019-10-08T17:09:28Z" finished-at="2019-10-08T17:09:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[======++++ Brwoser Session Ended ++++======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- WorkMarket.TestCases.TestCasesLoginPage -->
+    </test> <!-- test -->
+  </suite> <!-- suite1 -->
+</testng-results>
